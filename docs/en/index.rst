@@ -966,7 +966,7 @@ The above will create a ``CHAR(36)`` ``id`` column that is also the primary key.
 Additionally, since Migrations 1.3, a new way to deal with primary key was
 introduced. To do so, your migration class should extend the new
 ``Migrations\AbstractMigration`` class.
-You can specify a ``autoId`` property in the Migration class and set it to
+You can specify an ``autoId`` property in the Migration class and set it to
 ``false``, which will turn off the automatic ``id`` column creation. You will
 need to manually create the column that will be used as a primary key and add
 it to the table declaration::
